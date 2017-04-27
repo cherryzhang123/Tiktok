@@ -1,0 +1,7 @@
+<%= form_for @product, url: {controllers: :products, action: :new} do|f| %>
+    商品名称:<%= f.text_field :title %>
+    描述:<%= f.text_field :description %>
+    <%=f.file_field :file %>
+    价格:<%= f.text_field :price %>
+    <%= f.submit  "提交" %>
+<% end %>

@@ -24,3 +24,4 @@ Things you may want to cover:
 * ...
 # 这是一个git简单使用的经验介绍项目
 #我又修改了这个文件
+#git is very intreasting! 
